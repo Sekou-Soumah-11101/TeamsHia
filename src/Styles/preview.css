@@ -1,0 +1,72 @@
+.div-preview-component{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 216, 213);
+    margin-left: 3%;  
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.div-preview-component .fas:hover{
+    font-size: 18px;
+    font-weight: 700;
+   
+}
+
+.frame-student img{
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.frame-student{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: auto;
+
+}
+
+.status-student{
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+}
+
+.pricipal-student{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.status-student p{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+.div-preview-component.present .status-student {
+    background-color: green;
+}
+
+.div-preview-component.absent .status-student {
+    background-color: red;
+}
+.no-caret .dropdown-toggle::after {
+    display: none !important;
+}
+
+.editListStudent .fas{
+    margin-top: 10px;
+}

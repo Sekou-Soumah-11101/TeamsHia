@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.barre-navigation {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 110px;
+    background: orange;
+    overflow: hidden;
+    transition: width 0.2s linear;
+   
+}
+
+
+
+.lien-navigation {
+    position: relative;
+    color: rgb(82, 78, 78);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    padding: 10px;
+    text-decoration: none;
+    padding: 18px;
+
+}
+
+.icone-navigation {
+    font-size: 20px;
+    margin-right: 42px;
+}
+
+.lien-navigation:hover {
+    background-color: rgba(101, 105, 105, 0.466);
+    color: black;
+}
+
+.log-out {
+    position: absolute;
+    bottom: 0;
+}
+
+.barre-navigation:hover {
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+

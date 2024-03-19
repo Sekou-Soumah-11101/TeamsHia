@@ -1,0 +1,18 @@
+.priview-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.priview-btn img{
+    width: 30px;
+    margin: 10px;
+}
+
+.principal-nav-fonctionality {
+  
+    top: 0;
+    bottom: 0;
+    gap: 0;
+    height: 100%;
+}

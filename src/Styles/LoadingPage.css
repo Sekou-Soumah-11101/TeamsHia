@@ -1,0 +1,83 @@
+/*
+    Programmeurs : L'equipe disign HIA
+    Date         : @2024
+    But          : Projet final
+
+  Information suppelementaire : Un syste de gestion de presence pour les institutions scolaires
+
+  CSS: implementation des animations sur les pages
+  Version : 1.0
+
+*/
+
+@keyframes slideInLeftAnimation {
+    from {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(25%);
+      opacity: 1;
+    }
+  }
+  
+  .slideInLeft {
+    animation: slideInLeftAnimation 2s ease-in-out infinite;
+  }
+
+  @keyframes pulseAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+  
+  .pulse {
+    animation: pulseAnimation 1s infinite;
+  }
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeInAnimation 3s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(-60deg);
+    }
+    to {
+      transform: rotate(60deg);
+    }
+  }
+  
+  .gif-img {
+    animation: spin 2s linear infinite; /* 5 secondes */
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-out;
+  }

@@ -1,0 +1,48 @@
+.bg-body-tertiary img{
+   width: 100px;
+}
+
+
+
+.nav_div{
+    width: 100%;
+  
+}
+
+.btn_save_skip button{
+    background-color: orange;
+    margin: 5px;
+
+}
+.btn_save_skip{
+    display: flex;
+    float: right;
+
+}
+
+.div-prof-gestion img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.div-prof-gestion a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+.div-prof-gestion .fas{
+    margin-left: -5px;
+    font-size: 18px;
+}
+
+.entete-preview .fas{
+    font-size: 15px;
+}
+
+.entete-preview {
+    font-size: 18px;
+    font-weight: 500;
+}
+
